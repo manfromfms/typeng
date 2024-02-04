@@ -1,0 +1,49 @@
+.content {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    min-height: 90vh;
+}
+
+.typing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.char {
+    color: #404040;
+    font-size: xx-large;
+}
+
+.char-done {
+    color: gray;
+}
+
+.char-mistake {
+    color: red;
+}
+
+.char-current {
+    color: black;
+    text-decoration: underline black;
+}
+
+.keyboard {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.letter-info {
+    border: 2px solid black;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.letter-info-NED {
+    border: none;
+}
